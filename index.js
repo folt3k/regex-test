@@ -1,3 +1,17 @@
+// g - szukaj wszystich wystąpień
+// i - case insensitive
+// [abc] - a || b || c-
+// [^abc] - wszystko co nie jest a,b,c
+// + - wyrazenie dla nieskonczonej ilosci znaków
+// {} - wyrazenie o okreslonej liczbie znaków
+// ? - zero lub jeden znak
+// . - jakikolwiej znak
+// * - zero lub więcej znaków
+// \ - pomija znaczenie spacjalnego znaku
+// ^ - początek stringa
+// $ - koniec stringa
+// (p|t)ure - "p" lub "t" + "ure"
+
 // must be alphanumeric and contain 5 - 12 characters
 const isUserNameValid = (value) => !!value.match(/^[0-9]{5,12}$/);
 // must be a valid telephone number (e.g. +48664609988)
